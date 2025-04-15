@@ -6,13 +6,8 @@ public class StandsDTO {
     private String imageUrl;
     private String videoUrl;
 
-    
-    public StandsDTO(String stand, String user, String imageUrl, String videoUrl) {
-        this.stand = stand;
-        this.user = user;
-        this.imageUrl = imageUrl;
-        this.videoUrl = videoUrl;
-    }
+
+    public StandsDTO() {}
 
     public String getStand() {
         return this.stand;

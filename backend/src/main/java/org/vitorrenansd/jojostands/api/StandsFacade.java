@@ -14,6 +14,7 @@ public class StandsFacade {
         standList.add(new StandsDTO("Star Platinum","Jotaro Kujo", "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png", "https://www.youtube.com/watch?v=xvFZjo5PgG0"));
         standList.add(new StandsDTO("The World", "Dio Brando", "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png", "https://www.youtube.com/watch?v=xvFZjo5PgG0"));
         standList.add(new StandsDTO("Crazy Diamond", "Josuke Higashikata", "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png", "https://www.youtube.com/watch?v=xvFZjo5PgG0"));
+        standList.add(new StandsDTO("Killer Queen", "Yoshikage Kira", "https://pm1.aminoapps.com/6328/280c29bb62deb94d84f7fcdad4518d04b1235458_00.jpg", "https://www.youtube.com/watch?v=ayTe5S42guI"));
     }
 
     public List<StandsDTO> getAll() {

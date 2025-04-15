@@ -1,4 +1,4 @@
-package org.vitorrenansd.jojostands.dto;
+package org.vitorrenansd.jojostands.api;
 
 public class StandsDTO {
     private String stand;

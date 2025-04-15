@@ -4,12 +4,14 @@ public class StandsDTO {
     private String stand;
     private String user;
     private String imageUrl;
+    private String videoUrl;
 
     
-    public StandsDTO(String stand, String user, String imageUrl) {
+    public StandsDTO(String stand, String user, String imageUrl, String videoUrl) {
         this.stand = stand;
         this.user = user;
         this.imageUrl = imageUrl;
+        this.videoUrl = videoUrl;
     }
 
     public String getStand() {
@@ -21,6 +23,9 @@ public class StandsDTO {
     public String getImageUrl() {
         return this.imageUrl;
     }
+    public String getVideoUrl() {
+        return this.videoUrl;
+    }
 
     public void setStand(String stand) {
         this.stand = stand;
@@ -30,5 +35,8 @@ public class StandsDTO {
     }
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+    }
+    public void setVideoUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
     }
 }

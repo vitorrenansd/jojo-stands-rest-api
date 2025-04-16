@@ -26,27 +26,26 @@ public class StandsFacade {
 
     public StandsFacade() {
         try {
+            // Loads array standList with the values inside stands.json
             ObjectMapper mapper = new ObjectMapper();
             InputStream inputStream = new ClassPathResource("stands.json").getInputStream();
             List<StandsDTO> loadedList = mapper.readValue(inputStream, new TypeReference<List<StandsDTO>>() {});
             standList.addAll(loadedList);
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // Syntax error, null, etc
         }
     }
 
+    // Get all Stands from stands.json
     public List<StandsDTO> getAll() {
         return standList;
     }
 
+    // Get a random Stand from stands.json
     public StandsDTO getRandom() {
         if (standList.isEmpty()) {
             return null;
         }
-        return standList.get(new Random().nextInt(standList.size()));
-    }
-
-    public void addStand(StandsDTO stand) {
-        standList.add(stand);
+        return standList.get(new Random().nextInt(standList.size())); // .nextInt() = 0 to N
     }
 }

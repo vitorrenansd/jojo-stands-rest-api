@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.*;
  * @since 2025-04-15
  */
 @RestController
-@RequestMapping(value = "/stand")
 public class StandsAPI {
     private final StandsFacade standsFacade;
 

@@ -17,8 +17,6 @@ public class StandsDTO {
     private String videoUrl;
 
 
-    public StandsDTO() {}
-
     public String getStand() {
         return this.stand;
     }
@@ -30,18 +28,5 @@ public class StandsDTO {
     }
     public String getVideoUrl() {
         return this.videoUrl;
-    }
-
-    public void setStand(String stand) {
-        this.stand = stand;
-    }
-    public void setUser(String user) {
-        this.user = user;
-    }
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
-    }
-    public void setVideoUrl(String videoUrl) {
-        this.videoUrl = videoUrl;
     }
 }

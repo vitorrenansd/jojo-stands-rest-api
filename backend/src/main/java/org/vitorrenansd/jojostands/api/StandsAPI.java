@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.*;
  * @since 2025-04-15
  */
 @RestController
-@RequestMapping(value = "/stand")
 public class StandsAPI {
     private final StandsFacade standsFacade;
 
@@ -31,12 +30,14 @@ public class StandsAPI {
         this.standsFacade = standsFacade;
     }
 
-    @GetMapping
+    // IP:PORT/random
+    @GetMapping(value = "/random")
     public StandsDTO getRandom() {
         return standsFacade.getRandom();
     }
     
-    @GetMapping("/all")
+    // IP:PORT/all
+    @GetMapping(value = "/all")
     public List<StandsDTO> getAll() {
         return standsFacade.getAll();
     }

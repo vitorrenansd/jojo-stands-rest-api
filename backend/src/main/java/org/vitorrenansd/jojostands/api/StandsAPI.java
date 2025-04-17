@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.*;
  * @since 2025-04-15
  */
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 public class StandsAPI {
     private final StandsFacade standsFacade;
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function App() {
-  const [RandomStand, setStand] = useState([]);
+  const [randomStand, setStand] = useState(null);
 
   useEffect(() => {
     fetch('http://localhost:8080/stand')

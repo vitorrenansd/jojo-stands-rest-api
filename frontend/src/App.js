@@ -12,20 +12,9 @@ function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1>🌀 Lista de Stands</h1>
-      <ul>
-        {RandomStand.map((stand, index) => (
-          <li key={index}>
-            <strong>{stand.stand}</strong> - {stand.user}
-          </li>
-        ))}
-      </ul>
-
-      <h2>Stand Aleatório</h2>
-      {RandomStand ? (
+      {randomStand ? (
         <div>
-          <p><strong>Nome:</strong> {RandomStand.stand}</p>
-          <p><strong>Usuario:</strong> {RandomStand.user}</p>
+          <p><strong>Stand name: </strong> {randomStand.stand}</p>
         </div>
       ) : (
         <p>Carregando...</p>

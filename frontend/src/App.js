@@ -15,6 +15,7 @@ function App() {
       {randomStand ? (
         <div>
           <p><strong>Stand name: </strong> {randomStand.stand}</p>
+          <p><strong>Stand user: </strong> {randomStand.user}</p>
         </div>
       ) : (
         <p>Carregando...</p>

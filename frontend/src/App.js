@@ -4,7 +4,7 @@ function App() {
   const [randomStand, setStand] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8080/stand')
+    fetch('http://localhost:8080/random')
       .then(res => res.json())
       .then(data => setStand(data))
       .catch(err => console.error('Erro ao buscar stand aleatorio', err));

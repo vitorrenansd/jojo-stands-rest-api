@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.*;
  * Available endpoints:
  * </p>
  * <ul>
- *   <li><code>/stand</code> - Returns a random JoJo stand.</li>
- *   <li><code>/stand/all</code> - Returns a list of all available JoJo stands.</li>
+ *   <li><code>/random</code> - Returns a random JoJo stand.</li>
+ *   <li><code>/all</code> - Returns a list of all available JoJo stands.</li>
  * </ul>
  * @author vitorrenansd
  * @since 2025-04-15

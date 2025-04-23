@@ -25,7 +25,6 @@ body, html {
 /* Conteúdo do stand */
 .stand-info {
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
   padding: 20px;
   width: 100%;
   max-width: 500px;

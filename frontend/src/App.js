@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [randomStand, setStand] = useState(null);
 
-  useEffect(() => {
+  const fetchRandomStand = () => {
     fetch('http://localhost:8080/random')
       .then(res => res.json())
       .then(data => setStand(data))
@@ -17,6 +17,10 @@ function App() {
       : url.split('youtu.be/')[1]?.split('?')[0];
     return `https://www.youtube.com/embed/${videoId}`;
   };
+
+  useEffect(() => {
+    fetchRandomStand();
+  }, []);
 
   return (
     <div className="container">

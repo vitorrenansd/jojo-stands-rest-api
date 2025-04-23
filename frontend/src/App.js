@@ -8,9 +8,8 @@ function App() {
     fetch('http://localhost:8080/random')
       .then(res => res.json())
       .then(data => setStand(data))
-      .catch(err => console.error('Erro ao buscar stand aleatorio', err));
-  }, []);
-
+      .catch(err => console.error(err));
+  };
   const getYoutubeEmbedUrl = (url) => {
     const videoId = url.includes('watch?v=') 
       ? url.split('watch?v=')[1].split('&')[0]

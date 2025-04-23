@@ -21,10 +21,10 @@ function App() {
   return (
     <div className="container">
     {randomStand ? (
-      <div className="stand-card">
+      <div className="stand-info">
         <h1>Jojo Stand Viewer</h1>
         <div className="stand-name">{randomStand.stand}</div>
-        <div className="stand-user">Usuário: {randomStand.user}</div>
+        <div className="stand-user">User: {randomStand.user}</div>
 
         {randomStand.imageUrl && (
           <img
@@ -46,7 +46,7 @@ function App() {
         )}
       </div>
     ) : (
-        <p>Carregando...</p>
+        <p>Error while fetching data from the API</p>
       )}
     </div>
   );

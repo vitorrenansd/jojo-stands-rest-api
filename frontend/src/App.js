@@ -53,6 +53,8 @@ function App() {
         <p>Error while fetching data from the API</p>
       )}
 
+      <button onClick={fetchRandomStand} className="generate-button">GENERATE</button>
+
       <div className="about">
         <h2>Built by <a href="https://github.com/VitorRenanSD"target="_blank">Vitor Dias</a> and <a href="https://github.com/Kimiouskkjk"target="_blank">Ismael Porto</a></h2>
         <h2>Link to GitHub repository <a href="https://github.com/vitorrenansd/jojo-stands-rest-api"target="_blank">here</a></h2>

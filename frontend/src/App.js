@@ -25,7 +25,8 @@ function App() {
     <div className="container">
     {randomStand ? (
       <div className="stand-info">
-        <h1>JoJo Stand Generator</h1>
+        <title>JoJo Stand Generator</title>
+
         <div className="stand-name">{randomStand.stand}</div>
         <div className="stand-user">User: {randomStand.user}</div>
 

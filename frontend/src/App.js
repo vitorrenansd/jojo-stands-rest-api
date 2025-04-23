@@ -22,7 +22,7 @@ function App() {
     <div className="container">
     {randomStand ? (
       <div className="stand-info">
-        <h1>Jojo Stand Viewer</h1>
+        <h1>JoJo Stand Generator</h1>
         <div className="stand-name">{randomStand.stand}</div>
         <div className="stand-user">User: {randomStand.user}</div>
 
@@ -45,9 +45,15 @@ function App() {
           </div>
         )}
       </div>
-    ) : (
+      ) : (
         <p>Error while fetching data from the API</p>
       )}
+
+      <div className="about">
+        <h2>Built by <a href="https://github.com/VitorRenanSD"target="_blank">Vitor Dias</a> and <a href="https://github.com/Kimiouskkjk"target="_blank">Ismael Porto</a></h2>
+        <h2>Link to GitHub repository <a href="https://github.com/vitorrenansd/jojo-stands-rest-api"target="_blank">here</a></h2>
+      </div>
+      
     </div>
   );
 }

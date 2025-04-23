@@ -34,7 +34,14 @@ body, html {
 h1 {
   font-size: 2em;
   color: #ff00ff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.about {
+  font-size: 0.8em;
+  color: #fac0fa;
+  align-self: flex-start;
+  text-align: left;
 }
 
 .stand-name {

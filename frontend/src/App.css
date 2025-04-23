@@ -58,7 +58,7 @@ body, html {
   border: 3px solid #ff00ff;
   margin-top: 20px;
   margin-bottom: 20px;              /* aqui onde controla a distancia do texto e video */
-  box-shadow: 0 0 20px #ff00ff80;
+  box-shadow: 0 0 30px #ff00ff80;
 }
 
 /* Vídeo responsivo */

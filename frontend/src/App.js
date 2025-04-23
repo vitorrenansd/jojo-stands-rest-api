@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
   const [randomStand, setStand] = useState(null);
@@ -10,14 +11,41 @@ function App() {
       .catch(err => console.error('Erro ao buscar stand aleatorio', err));
   }, []);
 
+  const getYoutubeEmbedUrl = (url) => {
+    const videoId = url.includes('watch?v=') 
+      ? url.split('watch?v=')[1].split('&')[0]
+      : url.split('youtu.be/')[1]?.split('?')[0];
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
+
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      {randomStand ? (
-        <div>
-          <p><strong>Stand name: </strong> {randomStand.stand}</p>
-          <p><strong>Stand user: </strong> {randomStand.user}</p>
-        </div>
-      ) : (
+    <div className="container">
+    {randomStand ? (
+      <div className="stand-card">
+        <h1>Jojo Stand Viewer</h1>
+        <div className="stand-name">{randomStand.stand}</div>
+        <div className="stand-user">Usuário: {randomStand.user}</div>
+
+        {randomStand.imageUrl && (
+          <img
+            className="stand-img"
+            src={randomStand.imageUrl}
+            alt={randomStand.stand}
+          />
+        )}
+
+        {randomStand.videoUrl && (
+          <div className="video-wrapper">
+            <iframe
+              src={getYoutubeEmbedUrl(randomStand.videoUrl)}
+              title="Stand Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
+      </div>
+    ) : (
         <p>Carregando...</p>
       )}
     </div>

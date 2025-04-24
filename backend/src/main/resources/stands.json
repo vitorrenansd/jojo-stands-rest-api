@@ -2,19 +2,19 @@
     {
       "stand": "Star Platinum",
       "user": "Jotaro Kujo",
-      "imageUrl": "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png",
-      "videoUrl": "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+      "imageUrl": "https://i.pinimg.com/736x/5a/e9/c2/5ae9c2de70d17b950e139b79884516b6.jpg",
+      "videoUrl": "https://youtu.be/0fBy_DTGNW8?si=AEdBT-Mzw_jqn8D2"
     },
     {
       "stand": "The World",
       "user": "Dio Brando",
-      "imageUrl": "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png",
+      "imageUrl": "https://i.pinimg.com/736x/a0/96/b1/a096b13c4f501c9970927af4d0bec5aa.jpg",
       "videoUrl": "https://youtu.be/NRBqnKjJ8AE"
     },
     {
       "stand": "Crazy Diamond",
       "user": "Josuke Higashikata",
-      "imageUrl": "https://pbs.twimg.com/media/E92GkgKWUAAc4RJ.png",
+      "imageUrl": "https://i.pinimg.com/736x/1d/f8/3a/1df83a21f37bffba2e4e92bbadca93ca.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=Fv6rBVEko80"
     },
     {
@@ -28,6 +28,157 @@
       "user": "Giorno Giovanna",
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2023/10/11/654708523-06133356799254.jpg",
       "videoUrl": "https://youtu.be/W944vHnaQPw?t=13"
+    },
+    {
+      "stand": "Silver Chariot",
+      "user": "Jean Pierre Polnareff",
+      "imageUrl": "https://wallpaperaccess.com/full/5135940.jpg",
+      "videoUrl": "https://youtu.be/bDnHmNKUXWI?si=hOvnmHCsqHxBIeeM"
+    },
+    {
+        "stand": "Stone Free",
+        "user": "Jolyne Cujoh",
+        "imageUrl": "https://i.pinimg.com/736x/30/44/73/3044734af1fd97ed392faa5741451242.jpg",
+        "videoUrl": "https://youtu.be/VRPMbFLYsNg?si=UcsbcrkdVPXCVyDj"
+    },
+    {
+        "stand": "King Crimson",
+        "user": "Diavolo",
+        "imageUrl": "https://i.pinimg.com/736x/fc/f8/04/fcf804003eca8bbfba4dc75e3e04d74a.jpg",
+        "videoUrl": "https://youtu.be/RIVsqPMu95A?si=2Nb4kVFDBmTR9Blz"
+    },
+    {
+        "stand": "Made in Heaven",
+        "user": "Enrico Pucci",
+        "imageUrl": "https://i.pinimg.com/736x/f3/6d/9f/f36d9ff436964ec89abafaf8fe1e4288.jpg",
+        "videoUrl": "https://youtu.be/Iig8W_z__sc?si=Al0URCxB2PHHLzjN"
+    },
+    {
+        "stand": "C-Moon",
+        "user": "Enrico Pucci",
+        "imageUrl": "https://i.pinimg.com/736x/89/d7/07/89d70726c786547cfbbd345cb0ca1150.jpg",
+        "videoUrl": "https://youtu.be/XRDnh_3YQmU?si=T0rJtM4uu3z8k4G6"
+    },
+    {
+        "stand": "The Hand",
+        "user": "Okuyasu Nijimura",
+        "imageUrl": "https://i.pinimg.com/736x/a3/13/81/a313818ccfc0de325f13be02c1da659e.jpg",
+        "videoUrl": "https://youtu.be/ukSGjol3W9M?si=4preXuqtvhbzBntr"
+    },
+    {
+        "stand": "Hierophant Green",
+        "user": "Noriaki Kakyoin",
+        "imageUrl": "https://i.pinimg.com/736x/5e/9d/66/5e9d663f0d1836517012ad79a8b60bf5.jpg",
+        "videoUrl": "https://youtu.be/8ZnA0k_Te94?si=wr9c8Z3bAF5Jkw8w"
+    },
+    {
+        "stand": "Heaven's Door",
+        "user": "Rohan Kishibe",
+        "imageUrl": "https://i.pinimg.com/736x/57/11/02/5711025605134d0c43cbffc995d712e9.jpg",
+        "videoUrl": "https://youtu.be/pbCnOrNETxM?si=Mc5Ymq8c1aqTbjki"
+    },
+    {
+        "stand": "Sticky Fingers",
+        "user": "Bruno Bucciarati",
+        "imageUrl": "https://i.pinimg.com/736x/99/d3/3b/99d33b5f45e924603231eb1c19e4d97d.jpg",
+        "videoUrl": "https://youtu.be/fgIIv5EvvvQ?si=q8fkDhs8ZPzYsvjr"
+    },
+    {
+        "stand": "Moody Blues",
+        "user": "Leone Abbacchio",
+        "imageUrl": "https://i.pinimg.com/736x/2c/bb/ab/2cbbab47d12cabe8958237b869595016.jpg",
+        "videoUrl": "https://youtu.be/qbx30eqJa1k?si=40OB6beVZEL0l4SD"
+    },
+    {
+        "stand": "Weather Report",
+        "user": "Weather Report",
+        "imageUrl": "https://i.pinimg.com/736x/8d/1f/8c/8d1f8c1b452ca68db8e22bd003ddd320.jpg",
+        "videoUrl": "https://youtu.be/vtnVPn4aXUM?si=tb7cnpc9lfSDusam"
+    },
+    {
+        "stand": "Whitesnake",
+        "user": "Enrico Pucci",
+        "imageUrl": "https://i.pinimg.com/736x/07/bb/a6/07bba6a4aaa8f55aa8119c690990840e.jpg",
+        "videoUrl": "https://youtu.be/ASFz-wAhcm8?si=kNax6cWrSG4xaj1B"
+    },
+    {
+        "stand": "Kiss",
+        "user": "Ermes Costello",
+        "imageUrl": "https://i.pinimg.com/736x/13/0a/78/130a78e3a6e57146a998fbde5e2869ce.jpg",
+        "videoUrl": "https://youtu.be/ao2nZrnxS9U?si=64nalyrr7dUqlHS3"
+    },
+    {
+        "stand": "Diver Down",
+        "user": "Narciso Anasui",
+        "imageUrl": "https://i.pinimg.com/736x/64/95/d6/6495d65d93945cfc705eb2c174a3ee0b.jpg",
+        "videoUrl": "https://youtu.be/V-Q4jajFHSQ?si=9lQgskjiYQE2n5Ml"
+    },
+    {
+        "stand": "Aerosmith",
+        "user": "Narancia Ghirga",
+        "imageUrl": "https://i.pinimg.com/736x/48/c1/35/48c135fe9890de9e977830af9f5a7d05.jpg",
+        "videoUrl": "https://youtu.be/u_fzj83roxo?si=AovjwQUrWL1B8ZZE"
+    },
+    {
+        "stand": "Sex Pistols",
+        "user": "Guido Mista",
+        "imageUrl": "https://i.pinimg.com/736x/4f/19/4f/4f194f796b44c2075249b9600768c186.jpg",
+        "videoUrl": "https://youtu.be/DkaUYj4BR74?si=S5-0pXWglgHgyKT9"
+    },
+    {
+        "stand": "Sheer Heart Attack",
+        "user": "Yoshikage Kira (sub-stand)",
+        "imageUrl": "https://i.pinimg.com/736x/fc/1e/38/fc1e381ca14d135fe65dcb0e173da560.jpg",
+        "videoUrl": "https://youtu.be/Uxv0b3jHJWk?si=Ae2eREYC4gywA_7J"
+    },
+    {
+        "stand": "Red Hot Chili Pepper",
+        "user": "Akira Otoishi",
+        "imageUrl": "https://i.pinimg.com/736x/31/d4/04/31d40434021d252873524b036a84b6af.jpg",
+        "videoUrl": "https://youtu.be/mdeo4xmwbM8?si=ejDyeKhLMe2eirGh"
+    },
+    {
+        "stand": "Echoes ACT1",
+        "user": "Koichi Hirose",
+        "imageUrl": "https://i.pinimg.com/736x/5c/b0/c7/5cb0c788c8a3493c3606ed5718f3c726.jpg",
+        "videoUrl": "https://youtu.be/xvqgaxmzHKU?si=yc6kALKJJdkqIv5V"
+    },
+    {
+        "stand": "Echoes ACT2",
+        "user": "Koichi Hirose",
+        "imageUrl": "https://i.pinimg.com/736x/31/c6/4f/31c64f5ab5f52c86eedbde66278833e2.jpg",
+        "videoUrl": "https://youtu.be/iBd7htu_g0g?si=At9l93PRFPlDBFrn"
+    },
+    {
+        "stand": "Echoes ACT3",
+        "user": "Koichi Hirose",
+        "imageUrl": "https://i.pinimg.com/736x/63/ec/3b/63ec3b87661909a23bff0f3b997b10fe.jpg",
+        "videoUrl": "https://youtu.be/2FzTWg4ZtYU?si=5CONed1KvbQ4chvq"
+    },
+    {
+        "stand": "Magician's Red",
+        "user": "Muhammad Avdol",
+        "imageUrl": "https://i.pinimg.com/736x/cd/1e/97/cd1e9710562152ba8c8dc99e8f07a406.jpg",
+        "videoUrl": "https://youtu.be/wUV1BwgJ0uw?si=Q5veDV19QoSO5KD5"
+    },
+    {
+        "stand": "Hermit Purple",
+        "user": "Joseph Joestar",
+        "imageUrl": "https://i.pinimg.com/736x/81/54/99/815499c5e36671d1b45c736817a6a840.jpg",
+        "videoUrl": "https://youtu.be/i4vv3aR73z0?si=w9Cen0fTpyt-E9sJ"
+    },
+    {
+        "stand": "The Fool",
+        "user": "Iggy",
+        "imageUrl": "https://i.pinimg.com/736x/0e/7f/21/0e7f2175a60ee2a9e31a427eb9196200.jpg",
+        "videoUrl": "https://youtu.be/V772sIFsiSE?si=I_13A1vFYkhoaelW"
+    },
+    {
+        "stand": "Purple Haze",
+        "user": "Pannacotta Fugo",
+        "imageUrl": "https://i.pinimg.com/736x/22/8d/8b/228d8b015215e2833bee1db45d319cd6.jpg",
+        "videoUrl": "https://youtu.be/A1G_-M2Wz60?si=am4RzZXUNK-NMS8h"
     }
+    
   ]
   

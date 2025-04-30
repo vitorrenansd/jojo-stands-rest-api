@@ -48,17 +48,17 @@ function App() {
             ></iframe>
           </div>
         )}
+        <button onClick={fetchRandomStand} className="generate-button">GENERATE</button>
+        
       </div>
       ) : (
-        <p>Error while fetching data from the API</p>
+        <p>Error while fetching data from the API. Is backend running?</p>
       )}
 
-      <button onClick={fetchRandomStand} className="generate-button">GENERATE</button>
-
-      <div className="about">
+      <footer>
         <h2>Built by <a href="https://github.com/VitorRenanSD"target="_rel=noopener">Vitor Dias</a> and <a href="https://github.com/Kimiouskkjk"target="_rel=noopener">Ismael Porto</a></h2>
         <h2>Link to GitHub repository <a href="https://github.com/vitorrenansd/jojo-stands-rest-api"target="_rel=noopener">here</a></h2>
-      </div>
+      </footer>     
     </div>
   );
 }

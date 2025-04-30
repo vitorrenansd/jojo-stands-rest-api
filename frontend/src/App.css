@@ -7,6 +7,7 @@
 
 body, html {
   height: 100%;
+  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
   color: #ffffff;
@@ -31,12 +32,6 @@ body, html {
   text-align: center;
 }
 
-.about {
-  font-size: 0.8em;
-  color: #fac0fa;
-  align-self: flex-start;
-  text-align: left;
-}
 
 .stand-name {
   font-size: 1.5em;
@@ -87,4 +82,10 @@ body, html {
   border-radius: 30px;
   cursor: pointer;
   margin-bottom: 15px;
+}
+footer {
+  font-size: 0.8em;
+  color: #fac0fa;
+  align-self: flex-start;
+  text-align: left;
 }
